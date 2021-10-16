@@ -1,0 +1,135 @@
+:root{
+    --primary-pale-blue: hsl(225, 100%, 94%);
+    --primary-bright-blue:  hsl(245, 75%, 52%);
+    --neutral-pale-blue: hsl(225, 100%, 98%);
+    --neutral-blue: hsl(224, 23%, 55%);
+    --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,*::after,::before{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--neutral-pale-blue);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    max-width: 340px;
+    border-radius: 26px;    
+    overflow: hidden;
+    box-shadow: 0px 10px 20px -6px var(--neutral-blue);
+}
+
+.img-desktop{
+    max-width: 341px;
+    
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header h3{
+    margin: 15px 0 0 2px;
+    padding: 0;
+    color: var(--neutral-dark-blue);
+    font-weight: 900;
+}
+
+.card-header p{
+    text-align: center;
+    color: var(--neutral-blue);
+    font-weight: 500;
+}
+
+.card-plan{
+    display: flex;
+    align-items: center;
+    background-color: var(--neutral-pale-blue);
+    margin: 0 20px;
+    padding: 15px 15px;
+    border-radius: 16px;
+}
+
+.card-plan-text{
+    margin: 0 0 0 26px;
+    flex:2;
+}
+
+.card-plan-change{
+    color: var(--primary-bright-blue);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-plan-change:hover{
+    text-decoration: underline;
+}
+
+.card-plan-text > :first-child{
+    color: var(--neutral-dark-blue);
+    font-weight: 900;
+}
+
+.card-plan-text > :last-child{
+    color: var(--neutral-blue);
+    font-weight: 700;
+}
+
+.btn-payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-bright-blue);
+    color: #fff;
+    margin: 25px 20px;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px -6px var(--neutral-blue);
+}
+
+.cancel{
+    text-align: center;
+    color: var(--neutral-blue);
+}
+
+.cancel a{ 
+    color: var(--neutral-blue);
+}
+
+@media screen and (max-width:786px) {
+    body{
+        background-image: none;
+        background-color: var(--primary-pale-blue);
+    }
+}
