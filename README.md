@@ -2,8 +2,9 @@
 
 
 ### Screenshot
-
+Desktop view
 ![](./output-img/output-desktop.png)
+Mobile view
 ![](./output-img/output-mobile.png)
 
 
@@ -12,8 +13,9 @@
 
 ### Built with
 
+- HTML
 - CSS properties
-- Flexbox
+- CSS Flexbox
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -40,5 +42,4 @@ To see how you can add code snippets, see below:
 - Frontend Mentor - [@Muaaz08](https://www.frontendmentor.io/profile/Muaaz08)
 - Twitter - [@musthafa_muaaz](https://twitter.com/musthafa_muaaz)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
